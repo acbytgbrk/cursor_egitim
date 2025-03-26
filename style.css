@@ -309,88 +309,6 @@ nav ul li a:hover:after {
     box-shadow: 0 5px 15px rgba(9, 132, 227, 0.3);
 }
 
-/* Blog bölümü */
-.blog-container {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
-    gap: 30px;
-    max-width: 1200px;
-    margin: 0 auto;
-}
-
-.blog-post {
-    background-color: #fff;
-    border-radius: 12px;
-    overflow: hidden;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
-    transition: all 0.3s ease;
-    display: flex;
-    flex-direction: column;
-}
-
-.blog-post:hover {
-    transform: translateY(-10px);
-    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.15);
-}
-
-.blog-image {
-    height: 200px;
-    background-color: #0984e3;
-    background: linear-gradient(135deg, #0984e3, #74b9ff);
-    position: relative;
-    overflow: hidden;
-}
-
-.blog-content {
-    padding: 25px;
-    flex-grow: 1;
-    display: flex;
-    flex-direction: column;
-}
-
-.blog-header {
-    margin-bottom: 15px;
-}
-
-.blog-header h3 {
-    font-size: 1.4rem;
-    color: #2d3436;
-    margin-bottom: 10px;
-    line-height: 1.4;
-}
-
-.blog-date {
-    font-style: italic;
-    color: #7f8c8d;
-    font-size: 0.9rem;
-    display: block;
-}
-
-.blog-excerpt {
-    color: #636e72;
-    margin-bottom: 25px;
-    line-height: 1.7;
-    flex-grow: 1;
-}
-
-.blog-link {
-    align-self: flex-start;
-    background: linear-gradient(to right, #0984e3, #74b9ff);
-    color: #fff;
-    padding: 10px 20px;
-    border-radius: 25px;
-    font-weight: 500;
-    transition: all 0.3s ease;
-    box-shadow: 0 5px 15px rgba(9, 132, 227, 0.3);
-}
-
-.blog-link:hover {
-    background: linear-gradient(to right, #0052cc, #0984e3);
-    color: #fff;
-    transform: translateY(-3px);
-    box-shadow: 0 8px 20px rgba(9, 132, 227, 0.4);
-}
-
 /* İletişim bölümü */
 .contact-info {
     display: flex;
@@ -492,10 +410,6 @@ footer p {
     
     .profile-image, .profile-text {
         width: 100%;
-    }
-    
-    .blog-container {
-        grid-template-columns: 1fr;
     }
 
     .timeline-item:before {
