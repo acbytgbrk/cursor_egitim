@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Kişisel Web Sitesi
 
 Bu repo, kişisel web sitemi barındırmaktadır. HTML ve CSS kullanılarak oluşturulmuştur.
@@ -27,3 +28,6 @@ Projeyi yerel makinenizde görüntülemek için:
 ## Ekran Görüntüsü
 
 ![Web Sitesi Görüntüsü](screenshot.png) 
+=======
+# cursor_egitim
+>>>>>>> 90f2b9cfcbad53b5ac73e055079340590adddcd4
